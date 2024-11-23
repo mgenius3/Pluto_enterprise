@@ -13,8 +13,12 @@
     --foreground: #ededed;
   }
 }
+.primary_color {
+  color: #f5bd20!important;
+}
 
 body {
+  width: 100%;
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;

@@ -1,0 +1,41 @@
+.main {
+  background-color: white;
+  padding: 20px 20px 0px 20px;
+  position: relative;
+  z-index: 100;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+  font-family: var(--font-mono);
+}
+
+.link {
+  display: flex;
+}
+
+.link p {
+  color: #908a9d;
+  font-weight: 400;
+  margin: 0px 10px 0px 10px;
+  font-size: 16px;
+}
+
+.link .active {
+  border-bottom: 3px solid #f5bd20;
+  border-radius: 3px;
+  color: #22153b;
+}
+.menu {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .menu {
+    display: block;
+  }
+
+  .link {
+    display: none;
+  }
+
+  .main{
+    padding: 20px 0px;
+  }
+}

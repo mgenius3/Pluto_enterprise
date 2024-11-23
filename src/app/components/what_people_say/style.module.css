@@ -1,0 +1,60 @@
+.main {
+  margin: 30px 20px;
+  font-family: var(--font-mono);
+
+}
+
+.head h3 {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.list {
+  overflow-x: auto; /* Enable horizontal scrolling */
+  padding: 10px 0; /* Optional: Add some padding */
+}
+
+.scrollContainer {
+  display: flex; /* Use flexbox for horizontal layout */
+}
+.scrollContainer {
+  overflow-x: scroll; /* Enable horizontal scrolling */
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+.scrollContainer::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+
+.detail {
+  display: inline-block; /* Allows each detail to be treated as a block */
+  margin-right: 20px; /* Space between each detail item */
+  min-width: 350px; /* Optional: Set a minimum width for each detail */
+  background: rgba(239, 237, 240, 0.5);
+  border-radius: 42px;
+  padding: 25px;
+}
+
+/* Optional: Add styles for img to ensure proper sizing */
+.detail img {
+  width: 50px; /* Set width for the avatar image */
+  height: 50px; /* Set height for the avatar image */
+  border-radius: 50%; /* Optional: Make the image circular */
+}
+.detail p {
+  color: #8c8c8c;
+}
+
+.detail_name {
+  color: black !important;
+  margin-right: 10px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .head h3 {
+    font-weight: 700;
+    font-size: 20px;
+  }
+}

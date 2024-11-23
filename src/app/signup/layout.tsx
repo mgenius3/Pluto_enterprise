@@ -1,23 +1,22 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import "./globals.css";
-import Footer from "./components/footer";
-import Header from "./components/header";
+import "../globals.css";
+
 
 const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
+  src: "../fonts/Raleway-Italic-VariableFont_wght.ttf",
   variable: "--font-sans",
   weight: "100 900",
 });
 const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
+  src: "../fonts/Raleway-VariableFont_wght.ttf",
   variable: "--font-mono",
   weight: "100 900",
 });
 
 export const metadata: Metadata = {
-  title: "Pluto Enterprise",
-  description: "Logistiscs with pluto enterprise",
+  title: "Login - Pluto Enterprise",
+  description: "Login - Logistiscs with pluto enterprise",
 };
 
 export default function RootLayout({
@@ -30,10 +29,8 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {/* <Header active_no={0} /> */}
         {children}
-        {/* <Footer /> */}
-      </body>
+      </body> 
     </html>
   );
 }

@@ -1,0 +1,32 @@
+.faqContainer {
+    width: 95%;
+    padding: 20px;
+    margin: 0px 20px;
+  font-family: var(--font-mono);
+
+  }
+  
+  .faqHeader {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .faqList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .faqItem {
+    font-size: 16px;
+    padding: 15px 10px;
+    border-bottom: 1px solid #e0e0e0;
+    color: #333;
+  }
+  
+  .faqItem:hover {
+    background-color: #f9f9f9;
+    cursor: pointer;
+  }
+  
