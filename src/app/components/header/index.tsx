@@ -4,7 +4,7 @@ import { useState } from "react";
 import styles from "./style.module.css";
 import Link from "next/link";
 
-export default function Header({ active_no }: { active_no: Number }) {
+export default function Header({ active_no }: { active_no: number }) {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (

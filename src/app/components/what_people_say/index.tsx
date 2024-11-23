@@ -31,8 +31,8 @@ const WhatPeopleSayAboutUs = () => {
               <p className={styles.detail_name}>Sarah M.,</p> <p>Operation Manager</p>
             </span>
             <p>
-              We've been using Pluto Enterprise for our 3PL needs, and I
-              couldn't be more impressed. Their attention to detail, real-time
+              We&apos;ve been using Pluto Enterprise for our 3PL needs, and I
+              couldn&apos;t be more impressed. Their attention to detail, real-time
               tracking, and tailored solutions have helped us streamline our
               operations and cut costs. Highly recommended!
             </p>

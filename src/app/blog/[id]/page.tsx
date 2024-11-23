@@ -1,17 +1,12 @@
 import ArticlesGrid from "@/app/components/article_grid";
 import styles from "./style.module.css";
-import { FC } from "react";
 
-interface Params {
-  slug: string;
-}
-
-interface BlogDetailProps {
-  params: Params;
-}
-
-const BlogDetail: FC<BlogDetailProps> = ({ params }) => {
-  const { slug } = params;
+export default async function BlogDetail({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const slug = (await params).slug;
 
   return (
     <div className={styles.container}>
@@ -104,6 +99,4 @@ const BlogDetail: FC<BlogDetailProps> = ({ params }) => {
       <ArticlesGrid />
     </div>
   );
-};
-
-export default BlogDetail;
+}

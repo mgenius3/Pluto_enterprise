@@ -1,4 +1,3 @@
-import Image from "next/image";
 import styles from "./style.module.css";
 import EmailUs from "../components/email_us";
 import WhatPeopleSayAboutUs from "../components/what_people_say";

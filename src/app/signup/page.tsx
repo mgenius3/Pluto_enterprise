@@ -1,7 +1,14 @@
+'use client';
 import styles from "./style.module.css";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 export default function SignUp() {
+  const router = useRouter();
+
+  const handleSumbit = () => {
+    router.replace('/');
+  }
   return (
     <div className={styles.main}>
       <div className={styles.left}>
@@ -50,8 +57,8 @@ export default function SignUp() {
               </p>
             </span>
           </div>
-          <div className={styles.button}>
-            <p>Login</p>
+          <div className={styles.button} onClick={handleSumbit}>
+            <p>Sign Up</p>
           </div>
           <div className="flex justify-center mt-3">
             <Link href="/signup">

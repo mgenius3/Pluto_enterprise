@@ -1,4 +1,3 @@
-import Image from "next/image";
 import styles from "./style.module.css";
 import EmailUs from "./components/email_us";
 import WhatPeopleSayAboutUs from "./components/what_people_say";
@@ -117,7 +116,7 @@ export default function Home() {
           <div>
             <h6>01</h6>
             <p className={styles.head}>RELIABLE AND TIMELY DELIVERIES: </p>
-            <p className={styles.desc}>We understand that in today's fast-paced world, time is of essence. Our team ensures your goods are delivered on time, every timie, with precision and care</p>
+            <p className={styles.desc}>We understand that in today&apos;s fast-paced world, time is of essence. Our team ensures your goods are delivered on time, every time, with precision and care</p>
           </div>
 
           <div>
