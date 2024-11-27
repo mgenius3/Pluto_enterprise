@@ -1,7 +1,5 @@
 .main {
-  transform: translateY(-50px);
-  font-family: var(--font-mono);
-
+  transform: translateY(-50px); 
 }
 
 .top_header {

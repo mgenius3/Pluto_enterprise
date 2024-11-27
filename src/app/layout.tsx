@@ -1,21 +1,21 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
+import { Raleway } from "next/font/google";
 import "./globals.css";
+import styles from "./style.module.css";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-mono",
-  weight: "100 900",
-});
+const raleway_init = Raleway({
+  subsets: ['latin'],
+  weight: ['100', '300', '700'],
+  variable: '--font-raleway'
+})
+
 
 export const metadata: Metadata = {
-  title: "Pluto Enterprise",
-  description: "Logistiscs with pluto enterprise",
+  title: "Pluto Enterprise, LLC",
+  description: "Logistiscs with Pluto Enterprise, LLC",
+  icons: {
+    icon: "/logo.svg", // Adjust the path if necessary
+  },
 };
 
 export default function RootLayout({
@@ -25,12 +25,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {/* <Header active_no={0} /> */}
+      <body className={raleway_init.variable}>
         {children}
-        {/* <Footer /> */}
       </body>
     </html>
   );

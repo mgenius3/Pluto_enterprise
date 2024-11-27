@@ -1,6 +1,5 @@
 .main {
   transform: translateY(-50px);
-  font-family: var(--font-mono);
 }
 .top_header {
   display: flex;
@@ -179,6 +178,12 @@
   border-radius: 10px;
   font-size: 12px;
   cursor: pointer;
+}
+
+.video {
+  margin: 10px 0px;
+  width: 100%;
+  border-radius: 42px;
 }
 
 @media screen and (max-width: 600px) {

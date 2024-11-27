@@ -38,15 +38,15 @@ export default function Foot() {
               <div>
                 <h6 className="text-bold mb-1 text-white">Address</h6>
                 <p>
-                  Pluto Enterprise LLC <br /> 2835 tgth Ave, Ste 600 <br />{" "}
-                  Forest Grove, QR 97116
+                  Pluto Enterprise, LLC  <br /> 2835 Ave, Ste 600 <br />{" "}
+                  Forest Grove, OR 97116
                 </p>
               </div>
             </div>
           </div>
           <div className="flex justify-between mt-3">
             <div>
-              <p>@Pluto enterprise. all rights reserved</p>
+              <p>@Pluto Enterprise, LLC. all rights reserved</p>
             </div>
             <div className="flex items-center">
               <Link href="">

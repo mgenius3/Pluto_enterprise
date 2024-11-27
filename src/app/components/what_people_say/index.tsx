@@ -19,7 +19,7 @@ const WhatPeopleSayAboutUs = () => {
               <p className={styles.detail_name}>John A.,</p> <p>Business Owner</p>
             </span>
             <p>
-              Pluto Enterprise has completely transformed our supply chain!
+              Pluto Enterprise, LLC has completely transformed our supply chain!
               Their reliable deliveries and exceptional customer service have
               made them our go-to logistics partner. We can always count on them
               to get our products where they need to be, on time and intact.
@@ -31,7 +31,7 @@ const WhatPeopleSayAboutUs = () => {
               <p className={styles.detail_name}>Sarah M.,</p> <p>Operation Manager</p>
             </span>
             <p>
-              We&apos;ve been using Pluto Enterprise for our 3PL needs, and I
+              We&apos;ve been using Pluto Enterprise, LLC for our 3PL needs, and I
               couldn&apos;t be more impressed. Their attention to detail, real-time
               tracking, and tailored solutions have helped us streamline our
               operations and cut costs. Highly recommended!
@@ -43,7 +43,7 @@ const WhatPeopleSayAboutUs = () => {
               <p className={styles.detail_name}>John A.,</p> <p>Business Owner</p>
             </span>
             <p>
-              Pluto Enterprise has completely transformed our supply chain!
+              Pluto Enterprise, LLC has completely transformed our supply chain!
               Their reliable deliveries and exceptional customer service have
               made them our go-to logistics partner. We can always count on them
               to get our products where they need to be, on time and intact.
@@ -56,7 +56,7 @@ const WhatPeopleSayAboutUs = () => {
               <p className={styles.detail_name}>John A.,</p> <p>Business Owner</p>
             </span>
             <p>
-              Pluto Enterprise has completely transformed our supply chain!
+              Pluto Enterprise, LLC has completely transformed our supply chain!
               Their reliable deliveries and exceptional customer service have
               made them our go-to logistics partner. We can always count on them
               to get our products where they need to be, on time and intact.

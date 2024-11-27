@@ -1,149 +1,148 @@
 .main {
-    transform: translateY(-50px);
-  }
+  transform: translateY(-50px);
+}
 
+.top_header {
+  display: flex;
+  background: linear-gradient(
+      89.84deg,
+      rgba(34, 21, 59, 0.9) 29.29%,
+      rgba(93, 57, 161, 0) 104.21%
+    ),
+    url("../../../public/images/home_head.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay; /* Makes the gradient blend with the image */
+  padding: 90px 20px;
+  /* padding-top: 90px; */
+  border-radius: 30px;
+  margin: 0px 20px;
+  margin-bottom: 20px;
+}
+
+.header_left {
+  width: 70%;
+}
+
+.header_left .p1 {
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.header_left .p2 {
+  font-weight: 400;
+  font-size: 15px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.header_right {
+}
+
+/* ACTION  */
+.about {
+  margin: 3px 20px;
+  padding: 30px 20px;
+  border-radius: 40px;
+  margin-bottom: 30px;
+}
+.about h3 {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.icon_img {
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #fdfcfd;
+  margin-bottom: 10px;
+}
+
+/* MISSION AND VISION */
+.mission {
+  background: rgba(34, 21, 59, 1);
+  padding: 60px 30px;
+}
+
+.mission h3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+/* WHY CHOOSE US  */
+.why_choose_us {
+  margin: 30px 20px;
+  /* margin-bottom: 30px; */
+  padding: 50px;
+  background-color: #fdfcfd;
+  border-radius: 40px;
+}
+
+.why_choose_us .list {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.why_choose_us .list > div {
+  width: 40vw;
+  background-color: #f8f7f8;
+  border-radius: 30px;
+  padding: 25px 20px;
+  margin-bottom: 20px;
+}
+.why_choose_us .list > div h6 {
+  font-size: 30px;
+  color: white;
+  font-weight: 800;
+}
+.why_choose_us .list > div p {
+  color: black;
+}
+
+.why_choose_us .list .head {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.desc {
+  color: #8c8c8c;
+  font-size: 17px;
+}
+
+.button {
+  width: max-content;
+  background-color: #f5bd20;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
   .top_header {
-    display: flex;
-    background: linear-gradient(
-        89.84deg,
-        rgba(34, 21, 59, 0.9) 29.29%,
-        rgba(93, 57, 161, 0) 104.21%
-      ),
-      url("../../../public/images/home_head.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-blend-mode: overlay; /* Makes the gradient blend with the image */
-    padding: 90px 20px;
-    /* padding-top: 90px; */
-    border-radius: 30px;
-    margin: 0px 20px;
-    margin-bottom: 20px;
+    margin: 0px;
+    border-radius: 0px;
   }
-  
   .header_left {
-    width: 70%;
+    width: 100%;
   }
 
-  .header_left .p1 {
-    font-weight: 700;
-    font-size: 25px;
-    margin-bottom: 10px;
-    color: white;
-  }
-  
-  .header_left .p2 {
-    font-weight: 400;
-    font-size: 15px;
-    margin-bottom: 20px;
-    color: white;
-  }
-  
-  .header_right {
-  }
-  
-  /* ACTION  */
-  .about {
-    margin: 3px 20px;
-    padding: 30px 20px;
-    border-radius: 40px;
-    margin-bottom: 30px;
-  }
-  .about h3 {
-    font-weight: 700;
-    font-size: 28px;
-  }
-  
-  .icon_img {
-    padding: 10px;
-    border-radius: 15px;
-    background-color: #fdfcfd;
-    margin-bottom: 10px;
-  }
-  
-  /* MISSION AND VISION */
-  .mission {
-    background: rgba(34, 21, 59, 1);
-    padding: 60px 30px;
-  }
-
-  .mission h3{
-    font-size: 30px;
-    font-weight: 700;
-  }
-
-  /* WHY CHOOSE US  */
   .why_choose_us {
-    margin: 30px 20px;
-    /* margin-bottom: 30px; */
-    padding: 50px;
-    background-color: #fdfcfd;
-    border-radius: 40px;
+    padding: 20px;
   }
-  
+
   .why_choose_us .list {
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
   }
-  
-  .why_choose_us .list > div {
-    width: 40vw;
-    background-color: #f8f7f8;
-    border-radius: 30px;
-    padding: 25px 20px;
-    margin-bottom: 20px;
-  }
-  .why_choose_us .list > div h6 {
-    font-size: 30px;
-    color: white;
-    font-weight: 800;
-  }
-  .why_choose_us .list > div p {
-    color: black;
-  }
-  
-  .why_choose_us .list .head {
-    font-weight: 700;
-    margin-bottom: 10px;
-  }
-  
-  .desc {
-    color: #8c8c8c;
-    font-size: 17px;
-  }
-  
-  .button {
-    width: max-content;
-    background-color: #f5bd20;
-    padding: 10px;
-    border-radius: 10px;
-    font-size: 12px;
-    cursor: pointer;
-  }
-  
 
-  @media screen and (max-width: 600px) {
-    .top_header {
-      margin: 0px;
-      border-radius: 0px;
-    }
-    .header_left {
-      width: 100%;
-    }
-  
-    .why_choose_us {
-      padding: 20px;
-    }
-  
-    .why_choose_us .list {
-      margin-top: 30px;
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-    }
-  
-    .why_choose_us .list > div {
-      width: 100%;
-    }
+  .why_choose_us .list > div {
+    width: 100%;
   }
+}

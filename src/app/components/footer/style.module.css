@@ -2,12 +2,12 @@
   background-image: url("../../../../public/images/footer_background.png");
   background-size: cover;
   padding: 20px 40px;
-  font-family: var(--font-mono);
+  
 }
 
 .main p{
   color: white;
-  font-family: var(--font-mono);
+  
 }
 
 .divider {

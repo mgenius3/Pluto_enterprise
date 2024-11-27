@@ -24,7 +24,7 @@ export default function SignUp() {
         <div>
           <img src="/logo.svg" />
           <h3>Create An Acccount</h3>
-          <p className={styles.desc}>Welcome to pluto enterprise</p>
+          <p className={styles.desc}>Welcome to Pluto Enterprise, LLC</p>
           <div className={styles.input_container}>
             <img src="/email.svg" />
             <input
