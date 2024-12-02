@@ -30,7 +30,7 @@ export default function AboutUs() {
         <h3 className="primary_color">About Us</h3>
         <h3>WHO ARE WE</h3>
         <p className={styles.desc}>
-          Pluto Enterprise, LLC LLC is a forward-thinking logistics company
+          Pluto Enterprise, LLC is a forward-thinking logistics company
           specializing in transportation, freight brokerage, dispatching, and
           third-party logistics. We are a team of experienced professionals
           committed to harnessing the power of technology and e-commerce to
@@ -46,7 +46,7 @@ export default function AboutUs() {
         <div className="mb-5">
           <h3 className="primary_color">MISSION STATEMENT</h3>
           <p className={styles.desc}>
-            At Pluto Enterprise, LLC LLC, we are dedicated to revolutionizing
+            At Pluto Enterprise, LLC, we are dedicated to revolutionizing
             transportation and logistics by leveraging cutting-edge technology
             and e-commerce solutions. Our mission is to provide seamless,
             efficient, and reliable services that connect businesses and

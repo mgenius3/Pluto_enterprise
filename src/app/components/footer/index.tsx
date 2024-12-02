@@ -38,7 +38,7 @@ export default function Foot() {
               <div>
                 <h6 className="text-bold mb-1 text-white">Address</h6>
                 <p>
-                  Pluto Enterprise, LLC  <br /> 2835 Ave, Ste 600 <br />{" "}
+                  Pluto Enterprise, LLC  <br /> 2835 19th Ave, Ste 600 #1007<br />{" "}
                   Forest Grove, OR 97116
                 </p>
               </div>
