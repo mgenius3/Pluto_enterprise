@@ -29,6 +29,20 @@ body {
   font-family: var(--font-raleway);
 }
 
+.swiper-pagination {
+  position: relative!important;
+  margin-top: 15px;
+}
+
+.swiper-pagination-bullet {
+  margin-top: 100px;
+  background-color: #ccc; /* Default dot color */
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #f5bd20; /* Active dot color */
+}
 /* p{
   font-family: var(--font-raleway) !important;
 } */

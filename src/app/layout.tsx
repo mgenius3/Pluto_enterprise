@@ -24,6 +24,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+      <meta name="google-site-verification" content="clmgeDPFIPhIfdmoRbqUeW1P3j9o9WQszdowV6HL03g" />
+      </head>
       <body className={raleway_init.variable}>
         {children}
       </body>

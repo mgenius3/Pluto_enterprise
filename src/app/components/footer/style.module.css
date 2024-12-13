@@ -36,6 +36,7 @@
  
  .sec p{
     font-weight: 700;
+    font-size: 40px;
  }
 
 .schedule_button {
@@ -44,9 +45,29 @@
   border-radius: 10px;
   width: max-content;
   cursor: pointer;
+  /* height: 59px; */
 }
 
-.schedule_button p{
+.schedule_button a{
   color: #f5bd20!important;
+  font-weight: 700;
+  font-size: 20px;
+}
 
+
+@media screen and (max-width: 600px) {
+  .sec p{
+    font-size: 20px;
+ }
+ .schedule_button {
+  padding: 5px 18px;
+
+}
+
+
+.schedule_button a{
+  color: #f5bd20!important;
+  font-size: 10px!important;
+}
+  
 }

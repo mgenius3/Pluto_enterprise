@@ -186,6 +186,20 @@
   border-radius: 42px;
 }
 
+.swiper-pagination {
+  position: relative!important;
+}
+
+.swiper-pagination-bullet {
+  margin-top: 100px;
+  background-color: #ccc; /* Default dot color */
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #007bff; /* Active dot color */
+}
+
 @media screen and (max-width: 600px) {
   .top_header {
     margin: 0px;

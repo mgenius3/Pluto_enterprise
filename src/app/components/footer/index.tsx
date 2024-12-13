@@ -15,13 +15,12 @@ export default function Foot() {
               </span>
             </div>
             <div className={styles.schedule_button}>
-              <p>SCHEDULE YOUR FIRST APPOINTMENT</p>
+              <a href="/contact" className="text-white">SCHEDULE YOUR FIRST APPOINTMENT</a>
             </div>
           </div>
         </section>
 
         <div className={styles.divider}></div>
-
         <section>
           <div className="md:flex justify-between">
             <div className="mb-5">
@@ -30,10 +29,10 @@ export default function Foot() {
             <div className="flex">
               <div className="mr-10">
                 <h6 className="text-bold mb-1 text-white">Quick Links</h6>
-                <p>Home</p>
-                <p>Services</p>
-                <p>Contact Us</p>
-                <p>About Us</p>
+                <p><a href="/">Home</a></p>
+                <p><a href="/contact">Contact Us</a></p>
+                <p><a href="/about_us">About Us</a></p>
+                <p> <a href="/blog">Blog</a></p>
               </div>
               <div>
                 <h6 className="text-bold mb-1 text-white">Address</h6>
@@ -52,7 +51,7 @@ export default function Foot() {
               <Link href="">
                 <img src="/images/mail.svg" className={styles.icon_images} />
               </Link>
-              <Link href="">
+              <Link href="https://www.instagram.com/plutoentllc">
                 <img
                   src="/images/instagram.svg"
                   className={styles.icon_images}
@@ -61,12 +60,12 @@ export default function Foot() {
               <Link href="">
                 <img src="/images/fbook.svg" className={styles.icon_images} />
               </Link>
-              <Link href="">
+              {/* <Link href="">
                 <img src="/images/x.svg" className={styles.icon_images} />
               </Link>
               <Link href="">
                 <img src="/images/in.svg" className={styles.icon_images} />
-              </Link>
+              </Link> */}
             </div>
           </div>
         </section>

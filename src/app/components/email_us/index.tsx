@@ -13,7 +13,7 @@ export default function EmailUs() {
         />
       </div>
       <div className={styles.button}>
-        <p>SIGN UP FOR NEWSLETTER</p>
+        <a className="text-white" href="/contact">SIGN UP FOR NEWSLETTER</a>
       </div>
     </section>
   );

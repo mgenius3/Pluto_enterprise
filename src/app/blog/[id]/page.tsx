@@ -1,6 +1,21 @@
 import ArticlesGrid from "@/app/components/article_grid";
 import styles from "./style.module.css";
 
+export function generateStaticParams() {
+  const articles = [
+    { id: "top-5-trends-transforming-the-logistics-industry-in-2024" },
+    { id: "how-freight-forwarding-works-a-beginners-guide" },
+    { id: "why-outsource-your-logistics-to-a-3pl-provider" },
+    { id: "ecommerce-and-logistics-meeting-high-customer-expectations" },
+    { id: "the-importance-of-visibility-in-supply-chain-management" },
+    { id: "choosing-the-right-freight-solution-road-sea-or-air" },
+  ];
+
+  return articles.map((article) => ({
+    id: article.id,
+  }));
+}
+
 export default async function BlogDetail({
   params,
 }: {

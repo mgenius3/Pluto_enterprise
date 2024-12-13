@@ -7,40 +7,40 @@ const ArticlesGrid = () => {
       title: 'Top 5 Trends Transforming the Logistics Industry in 2024',
       description: 'From Automation to AI: What to Expect in the Year Ahead',
       image: '/images/blog.png', // Replace with actual images
-      link: '/blog/Top 5 Trends Transforming the Logistics Industry in 2024'
+      link: '/blog/top-5-trends-transforming-the-logistics-industry-in-2024'
     },
     {
       title: 'How Freight Forwarding Works: A Beginner\'s Guide',
       description: 'Understanding the Steps, Players, and Challenges of Freight Forwarding',
       image: '/images/blog1.png',
-      link: '/blog/How Freight Forwarding Works: A Beginner\'s Guide'
+      link: '/blog/how-freight-forwarding-works-a-beginners-guide'
     },
     {
       title: 'Why Outsource Your Logistics to a 3PL Provider?',
       description: 'Key Benefits of Using 3PL for Growing Businesses',
       image: '/images/blog2.png',
-      link: '/blog/Why Outsource Your Logistics to a 3PL Provider?'
+      link: '/blog/why-outsource-your-logistics-to-a-3pl-provider'
 
     },
     {
       title: 'E-commerce and Logistics: Meeting High Customer Expectations',
       description: 'Fast Delivery, Cost Efficiency, and Inventory Management for Online Retailers',
       image: '/images/blog1.png',
-      link: '/blog/E-commerce and Logistics: Meeting High Customer Expectations'
+      link: '/blog/ecommerce-and-logistics-meeting-high-customer-expectations'
 
     },
     {
       title: 'The Importance of Visibility in Supply Chain Management',
       description: 'How Technology Enhances Real-Time Tracking and Efficiency',
       image: '/images/blog.png',
-      link: '/blog/The Importance of Visibility in Supply Chain Management'
+      link: '/blog/the-importance-of-visibility-in-supply-chain-management'
 
     },
     {
       title: 'Choosing the Right Freight Solution: Road, Sea, or Air?',
       description: 'When to Use Each Mode of Transportation for Your Business',
       image: '/images/blog2.png',
-      link: '/blog/Choosing the Right Freight Solution: Road, Sea, or Air'
+      link: '/blog/choosing-the-right-freight-solution-road-sea-or-air'
 
     },
   ];
@@ -58,7 +58,6 @@ const ArticlesGrid = () => {
           <p className={styles.description}>{article.description}</p>
         </div>
         </Link>
-       
       ))}
     </div>
   );

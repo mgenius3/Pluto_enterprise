@@ -24,7 +24,7 @@ export default function Home() {
             </p>
 
             <div className={styles.button}>
-              <p className="raleway">START SHIPPING TODAY</p>
+              <a className="raleway" href="/contact">START SHIPPING TODAY</a>
             </div>
           </div>
           <div className={styles.header_right}></div>

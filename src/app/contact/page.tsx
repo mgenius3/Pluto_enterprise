@@ -35,7 +35,6 @@ export default function ContactUs() {
           />
         </div>
       </div>
-
       <textarea
         placeholder="type your message here ..."
         className={styles.input_container_textarea}
