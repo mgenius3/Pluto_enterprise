@@ -29,10 +29,10 @@ export default function Foot() {
             <div className="flex">
               <div className="mr-10">
                 <h6 className="text-bold mb-1 text-white">Quick Links</h6>
-                <p><a href="/">Home</a></p>
-                <p><a href="/contact">Contact Us</a></p>
-                <p><a href="/about_us">About Us</a></p>
-                <p> <a href="/blog">Blog</a></p>
+                <p><Link href="/">Home</Link></p>
+                <p><Link href="/contact">Contact Us</Link></p>
+                <p><Link href="/about_us">About Us</Link></p>
+                <p> <Link href="/blog">Blog</Link></p>
               </div>
               <div>
                 <h6 className="text-bold mb-1 text-white">Address</h6>
